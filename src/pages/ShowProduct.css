@@ -1,0 +1,19 @@
+.show-product-container {
+  margin: 3rem 3rem 0;
+}
+.show-product {
+  width: 80%;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.product-img img {
+  max-width: 100%;
+  height: auto;
+}
+.product-description {
+  background-color: #282828;
+  padding: 0.5rem 1rem;
+}

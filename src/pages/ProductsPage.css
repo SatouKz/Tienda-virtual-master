@@ -1,0 +1,7 @@
+.products-list {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  gap: 1.5rem;
+  /* background-color: red; */
+}

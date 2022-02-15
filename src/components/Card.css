@@ -1,0 +1,16 @@
+.card {
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 1.3rem;
+}
+.card a {
+  color: rgb(0, 195, 255);
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-text {
+  padding: 1rem;
+}
