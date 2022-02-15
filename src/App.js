@@ -4,6 +4,7 @@ import ProductsPage from './pages/ProductsPage';
 import ShowProduct from './pages/ShowProduct';
 import Error404 from './pages/Error404';
 import productos from './assets/images/productos';
+import ToBuy from './components/ToBuy';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<ProductsPage />}/>
           <Route path='/products/:id' element={<ShowProduct productos={productos}/>}/>
+          <Route path='/products/shooping-card' element={<ToBuy productos={productos}/>}/>
           <Route path='*' element={<Error404 />}/>
         </Routes>
       </Router>
