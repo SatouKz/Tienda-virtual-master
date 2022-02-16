@@ -1,6 +1,5 @@
 import React from "react";
 import "./AddToCart.css";
-import ToBuy from "./ToBuy";
 import { Link } from "react-router-dom";
 const AddToCart = ({ productos }) => {
   return (
@@ -40,7 +39,10 @@ const AddToCart = ({ productos }) => {
           </div>
           <div class="d-grid list-group-item">
             <button type="button">
-              <Link key={productos.id} to={`/products/shooping-card${productos.id}`}>
+              <Link
+                key={productos.id}
+                to={`/products/shooping-card/${productos.id}`}
+              >
                 Agregar al carrito de compra
               </Link>
             </button>

@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<ProductsPage />}/>
           <Route path='/products/:id' element={<ShowProduct productos={productos}/>}/>
-          <Route path='/products/shooping-card' element={<ToBuy productos={productos}/>}/>
+          <Route path='/products/shooping-card/:id' element={<ToBuy productos={productos}/>}/>
           <Route path='*' element={<Error404 />}/>
         </Routes>
       </Router>

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import ButtonBack from "../components/ButtonBack";
 import AddToCart from "../components/AddToCart";
 
-import "./ShowProduct.css";
+import "./ShowProduct.css"; 
 const ShowProduct = ({ productos }) => {
   let { id } = useParams();
   return (
